@@ -22,6 +22,19 @@ body {
     flex-grow: 1; /* This ensures that the main content area expands to fill the space */
 }
 
+body {
+    overflow: hidden;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.main-content {
+    flex: 1;
+}
 
 body {
   font-family: "Open Sans", sans-serif;
