@@ -13,24 +13,6 @@ html, body {
 }
 
 body {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-}
-
-.main-content {
-    flex-grow: 1; /* This ensures that the main content area expands to fill the space */
-}
-
-body {
-    overflow: hidden;
-}
-
-.main-content {
-    flex: 1;
-}
-
-body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
 }
