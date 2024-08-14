@@ -2,6 +2,27 @@
 # General
 --------------------------------------------------------------*/
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-content {
+    flex-grow: 1; /* This ensures that the main content area expands to fill the space */
+}
+
+
 body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
